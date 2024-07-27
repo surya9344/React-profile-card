@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+ body{
+    font-family: "Lato", sans-serif;
+} 
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.card-container{
+    background-color: #405D72;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    color: #F7E7DC;
+    padding-top: 30px;
+}
+.pro{
+   
+    font-size: 18px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 3px 7px;
+}
+
+.online{
+    background-color: greenyellow;
+}
+
+.offline{
+    background-color: #febb0b;
+    color:#F7E7DC;
+}
+
+.img{
+    border-radius: 50%;
+    padding: 5px;
+    border: 3px solid #fff;
+}
+h3{
+    font-size: 25px;
+    margin: 2px;
+}
+h6{
+    font-size: large;
+    margin: 2px;   
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.primary{
+    background-color: rgb(33, 102, 182);
+    font-weight: 300;
+    padding: 10px 25px;
+    border: 1px solid rgb(33, 102, 182);
+    color: #fff;
+}
+
+.outfit{
+    background: transparent;
+}
+
+h6{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.skills{
+    text-align: left;
+    margin-top: 15px;
+}
+.skills ul{
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    border: 0;
+}
+
+.skills ul li{
+    border: 1px solid #758694;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 7px;
+    margin: 0 7px 7px 0;
+    font-size: 12px;
+}
