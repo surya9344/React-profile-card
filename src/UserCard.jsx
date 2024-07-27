@@ -6,7 +6,7 @@ const userData=[
         city:"Chennai",
         about:"WEB DEVELOPER",
         online:false,
-        profile: "/src/assets/card1.jpg",
+        profile: "https://www.google.com/imgres?q=profile%20image%20avatar&imgurl=https%3A%2F%2Fpng.pngtree.com%2Fpng-clipart%2F20230927%2Foriginal%2Fpngtree-man-avatar-image-for-profile-png-image_13001882.png&imgrefurl=https%3A%2F%2Fpngtree.com%2Ffreepng%2Fman-avatar-image-for-profile_13001882.html&docid=jg1keOQMt--4lM&tbnid=gq4PHU4u5hkkhM&vet=12ahUKEwiZt___i8eHAxW-RmwGHRnWHLEQM3oECFIQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwiZt___i8eHAxW-RmwGHRnWHLEQM3oECFIQAA",
         skills:['HTML','CSS','JavaScript','React.js','C','JAVA','API','POSTMAN']
     },
     {
